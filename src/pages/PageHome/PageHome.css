@@ -1,0 +1,39 @@
+.home{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
+  padding: 1rem;
+  gap:1rem;
+  place-items: center;
+}
+.card{
+  width: 288px;
+  height: 432px;
+  box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+}
+.card img{
+  width: 248px;
+  height: 248px;
+  object-fit: cover;
+}
+.card p{
+  font-size: 1.5rem;
+}
+.card button{
+  width: 177px;
+  height: 38px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card button:hover{
+background-color: #0261c7;
+}
