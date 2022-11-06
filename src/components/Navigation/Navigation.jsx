@@ -13,7 +13,7 @@ const Navigation = () => {
       <div className={"wrapper"}>
       <NavLink
         className={'link'}
-        to='/authors'
+        to='/'
       >
         Authors
       </NavLink>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import data from '../.././assets/db.json'
 import Pagination from '../../components/Pagination/Pagination'
+import { NavLink } from "react-router-dom"
 import './PageHome.css'
 
 export const PageHome = () => {
@@ -24,7 +25,14 @@ export const PageHome = () => {
               alt=''
             />
             <p>{author.firstName + ' ' + author.lastName}</p>
-            <button>Click to view Profile</button>
+            <NavLink
+            className={'button-link'}
+            
+             to={`/profile/${author.id}`}
+             
+            >Click to view Profile
+            </NavLink>
+            
           </div>
         )
       })}

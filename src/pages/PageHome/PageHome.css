@@ -24,9 +24,12 @@
 .card p{
   font-size: 1.5rem;
 }
-.card button{
+.card .button-link{
   width: 177px;
   height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1rem;
   background-color: #007bff;
   color: aliceblue;
@@ -34,6 +37,6 @@
   border-radius: 5px;
   cursor: pointer;
 }
-.card button:hover{
+.card .button-link:hover{
 background-color: #0261c7;
 }

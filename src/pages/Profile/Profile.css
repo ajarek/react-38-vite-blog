@@ -1,0 +1,22 @@
+.profile{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.profile-card{
+  width: 400px;
+  height: 540px;
+  background-color: #313131;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.profile img{
+  width: 100%;
+  object-fit: cover;
+}
