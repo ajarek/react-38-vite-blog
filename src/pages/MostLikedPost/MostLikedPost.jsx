@@ -1,5 +1,6 @@
 import React from 'react'
 import data from '../.././assets/db.json'
+import { NavLink } from 'react-router-dom'
 import './MostLikedPost.css'
 export const MostLikedPost = () => {
   const posts = data.posts.sort((a, b) => b.numLikes - a.numLikes).slice(0, 10)
@@ -7,9 +8,14 @@ export const MostLikedPost = () => {
     <div className={'wrapper-post'}>
       {posts.map((post) => {
         return (
+          <NavLink
+          className={'button-link'}
+          to={`/posts/${post.id}`}
+          key={post.id}
+        >
           <div
             className={'row'}
-            key={post.id}
+            
           >
             <div className='wrap'>
               <p>{post.title}</p>
@@ -21,6 +27,7 @@ export const MostLikedPost = () => {
               <p>Likes {post.numLikes}</p>
             </div>
           </div>
+          </NavLink>
         )
       })}
     </div>
