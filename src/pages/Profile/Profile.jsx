@@ -8,6 +8,10 @@ export const Profile = () => {
   const { id } = useParams()
   const found = data.authors.find((el) => el.id === id)
   const postsId = data.posts.filter((el) => el.authorId === Number(id))
+  
+ 
+   
+  
  
   const [parameters,setParameters] = useState('id')
 

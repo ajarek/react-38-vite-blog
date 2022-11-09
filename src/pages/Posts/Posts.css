@@ -11,3 +11,17 @@
   font-size: 1.2rem;
   letter-spacing: 1px;
 }
+.comments{
+  width: 60%;
+  margin-bottom: 1rem;
+}
+.comments img{
+  width: 60px;
+  object-fit: cover;
+}
+.comments h4{
+  letter-spacing: 1px;
+}
+.comments p{
+  font-size: 1.2rem;
+}

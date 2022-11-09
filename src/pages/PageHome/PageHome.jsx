@@ -22,7 +22,7 @@ export const PageHome = () => {
             >
               <img
                 src={`https://joeschmoe.io/api/v1/${author.firstName}`}
-                alt=''
+                alt='avatar'
               />
               <p>{author.firstName + ' ' + author.lastName}</p>
               <NavLink
