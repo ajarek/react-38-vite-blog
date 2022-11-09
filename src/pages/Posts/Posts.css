@@ -21,7 +21,12 @@
 }
 .comments h4{
   letter-spacing: 1px;
+  color: #313131;
 }
 .comments p{
   font-size: 1.2rem;
+  color: #313131;
+}
+.comments h4:hover,.comments p:hover{
+  color: blue;
 }

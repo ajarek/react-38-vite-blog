@@ -25,12 +25,22 @@ export const Posts = () => {
     {commentsPost.map((el)=>{
       return(
         <div key={el.authorId} className={'comments'}>
+          <NavLink
+                className={'button-link'}
+                to={`/profile/${el.authorId}`}
+              >
           <img
                 src={`https://joeschmoe.io/api/v1/${(data.authors.find(author=>author.id==el.authorId)).firstName}`}
                 alt=''
               />
+          
+
         <h4>{(data.authors.find(author=>author.id==el.authorId)).firstName+' '+(data.authors.find(author=>author.id==el.authorId)).lastName}</h4>
+
+       
+
         <p><b>Comment:</b> {el.text}</p>
+        </NavLink>
         </div>
       )
     })}
