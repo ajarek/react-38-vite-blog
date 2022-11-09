@@ -1,32 +1,50 @@
-.posts-desc{
+.posts-desc {
   width: 100%;
-  padding:1rem 8rem;
+  padding: 1rem 8rem;
   background-color: #313131;
   color: aliceblue;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  text-justify:justify ;
+  text-justify: justify;
   font-size: 1.2rem;
   letter-spacing: 1px;
 }
-.comments{
+.comments {
   width: 60%;
   margin-bottom: 1rem;
 }
-.comments img{
+.comments img {
   width: 60px;
   object-fit: cover;
 }
-.comments h4{
+.comments h4 {
   letter-spacing: 1px;
   color: #313131;
 }
-.comments p{
+.comments p {
   font-size: 1.2rem;
   color: #313131;
 }
-.comments h4:hover,.comments p:hover{
+.comments h4:hover,
+.comments p:hover {
   color: blue;
+}
+@media (max-width: 600px) {
+  .desc,
+  .comments {
+    width: 100vw;
+
+    padding: 0 1rem;
+  }
+  .root {
+    width: 100vw;
+  }
+  .root h1 {
+    padding: 0 1rem;
+  }
+  .comments p {
+    font-size: 0.8rem;
+  }
 }

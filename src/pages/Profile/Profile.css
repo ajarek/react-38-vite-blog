@@ -23,13 +23,19 @@
 }
 .posts-id {
   width: 100%;
-  padding: 2rem 5rem;
+  padding: 2rem 1rem;
+}
+.row-button{
+  display: flex;
+  flex-wrap:wrap ;
+  justify-content: center;
+  align-items: center;
 }
 .posts-id h2{
   margin-bottom: 1rem;
 }
 .posts-id button{
-  width: 25%;
+  width: 267px;
   padding: 1rem 0;
   font-size: 1.2rem;
   margin-bottom: 1rem;
@@ -41,4 +47,19 @@
 }
 .posts-id button:hover{
   background-color: #1078e8;
+}
+@media (max-width:600px) {
+  .profile-card {
+    width: 100%;
+  }
+  .posts-id button{
+    width: 100%;
+  }
+  .posts-id{
+    padding: 2rem 0;
+
+  }
+  .wrap{
+    font-size: 0.9rem;
+  }
 }

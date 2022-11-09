@@ -40,12 +40,14 @@ export const Profile = () => {
         <p>{'POSTS: ' + found.numPosts}</p>
         <p>{'LIKES:' + found.numLikes}</p>
       </div>
-      <div className='posts-id'>
+      <div className={'posts-id'}>
         <h2>Posts</h2>
+        <div className={"row-button"}>
         <button onClick={()=>setParameters('dateAscending')}>Date Ascending</button>
         <button onClick={()=>setParameters('dateDescending')}>Date Descending</button>
         <button onClick={()=>setParameters('likesAscending')}>Likes Ascending</button>
         <button onClick={()=>setParameters('likesDescending')}>Likes Descending</button>
+        </div>
         {sortPosts().map((el) => {
           return (
             <NavLink
