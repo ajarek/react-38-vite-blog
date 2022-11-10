@@ -9,24 +9,21 @@ export const MostLikedPost = () => {
       {posts.map((post) => {
         return (
           <NavLink
-          className={'button-link'}
-          to={`/posts/${post.id}`}
-          key={post.id}
-        >
-          <div
-            className={'row'}
-            
+            className={'button-link'}
+            to={`/posts/${post.id}`}
+            key={post.id}
           >
-            <div className='wrap'>
-              <p>{post.title}</p>
+            <div className={'row'}>
+              <div className='wrap'>
+                <p>{post.title}</p>
+              </div>
+              <div className='wrap'>
+                <p>{new Date(post.datePublished).toLocaleDateString()}</p>
+              </div>
+              <div className='wrap'>
+                <p>Likes {post.numLikes}</p>
+              </div>
             </div>
-            <div className='wrap'>
-              <p>{ new Date(post.datePublished).toLocaleDateString()}</p>
-            </div>
-            <div className='wrap'>
-              <p>Likes {post.numLikes}</p>
-            </div>
-          </div>
           </NavLink>
         )
       })}

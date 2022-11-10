@@ -1,27 +1,26 @@
-.nav{
+.nav {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   background-color: #343a40;
-  
   padding: 1rem;
 }
-.wrapper{
+.wrapper {
   display: flex;
   flex-wrap: wrap;
 }
-.link{
+.link {
   color: gray;
   font-size: 1.5rem;
-  border-bottom:1px solid transparent;
+  border-bottom: 1px solid transparent;
   transition: all 0.2s;
   margin-right: 1rem;
 }
-.link:hover{
+.link:hover {
   border-bottom: 2px solid yellow;
 }
-.link:focus{
+.link:focus {
   color: aliceblue;
 }

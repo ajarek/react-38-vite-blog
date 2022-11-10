@@ -1,6 +1,5 @@
 import './Pagination.css'
 
-
 export const Pagination = ({
   totalPosts,
   postsPerPage,

@@ -25,41 +25,40 @@
   width: 100%;
   padding: 2rem 1rem;
 }
-.row-button{
+.row-button {
   display: flex;
-  flex-wrap:wrap ;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.posts-id h2{
+.posts-id h2 {
   margin-bottom: 1rem;
 }
-.posts-id button{
+.posts-id button {
   width: 267px;
   padding: 1rem 0;
   font-size: 1.2rem;
   margin-bottom: 1rem;
   background-color: #007bff;
-  border:1px solid aliceblue;
+  border: 1px solid aliceblue;
   color: aliceblue;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
 }
-.posts-id button:hover{
+.posts-id button:hover {
   background-color: #1078e8;
 }
-@media (max-width:600px) {
+@media (max-width: 600px) {
   .profile-card {
     width: 100%;
   }
-  .posts-id button{
+  .posts-id button {
     width: 100%;
   }
-  .posts-id{
+  .posts-id {
     padding: 2rem 0;
-
   }
-  .wrap{
+  .wrap {
     font-size: 0.9rem;
   }
 }

@@ -14,29 +14,26 @@ function App() {
           path='/'
           element={<PageHome />}
         />
-        <Route
-          path='/profile/'>
-           <Route 
-            path={':id'}
-          element={<Profile />}
-          />
-          </Route>
+        <Route path='/profile/'>
           <Route
+            path={':id'}
+            element={<Profile />}
+          />
+        </Route>
+        <Route
           path='/mostLikedPost'
           element={<MostLikedPost />}
         />
-         <Route
+        <Route
           path='/mostCommentPost'
           element={<MostCommentPost />}
         />
-        <Route
-          path='/posts/'>
-           <Route 
+        <Route path='/posts/'>
+          <Route
             path={':id'}
-          element={<Posts />}
+            element={<Posts />}
           />
-          </Route>
-        
+        </Route>
       </Routes>
     </div>
   )

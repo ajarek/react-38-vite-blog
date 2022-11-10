@@ -24,7 +24,7 @@ export const Posts = () => {
         </h5>
         <p>LIKES : {postsDesc.numLikes}</p>
       </div>
-      <h1>Comments</h1>
+      <h2>Comments :</h2>
       {commentsPost.map((el) => {
         return (
           <div
