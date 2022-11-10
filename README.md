@@ -1,7 +1,7 @@
 # react-38-vite-blog
-<p align="center">
+
 ![Clipboard01](https://user-images.githubusercontent.com/61388692/201205883-cfced777-2d91-4004-b567-5e72b8d09349.png)
-</p>
+
 ![Clipboard02](https://user-images.githubusercontent.com/61388692/201205906-68b245a7-826a-4e66-96f5-283017402852.png)
 
 
