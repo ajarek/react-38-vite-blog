@@ -1,8 +1,6 @@
 # react-38-vite-blog
 
-<div align="right">
-  [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on-ar.png" style="text-align: right" alt="Get it on F-Droid" height="70">](https://f-droid.org/packages/com.junkfood.seal/)
-</div>
+
 
 ![Clipboard01](https://user-images.githubusercontent.com/61388692/201205883-cfced777-2d91-4004-b567-5e72b8d09349.png)
 
